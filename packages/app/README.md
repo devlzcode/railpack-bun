@@ -1,4 +1,4 @@
-# railpack-bun
+# @acme/app
 
 To install dependencies:
 

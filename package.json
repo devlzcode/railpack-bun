@@ -1,15 +1,11 @@
 {
-  "name": "railpack-bun",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "node-ssh": "^13.2.1"
-  }
+	"version": "0.0.0",
+	"workspaces": {
+		"packages": [
+			"packages/*"
+		]
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.6"
+	}
 }
